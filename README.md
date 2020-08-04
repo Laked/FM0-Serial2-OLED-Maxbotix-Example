@@ -1,1 +1,2 @@
 # FM0-Serial2-OLED-Maxbotix-Example
+Here's some example code to setup a new Serial port, Serial2, with SERCOM1 on the Adafruit Feather M0 LoRa board.  Additionally we read via Serial2 data from a MaxBotix Ultrasonic Rangefinder.  The rangefinder puts out RS232 at Vcc (in my case 3.3V) which I invert using a 2N7000 like MOSFET and a ~880kOhm Resistor.  This data along with a counter battery voltage in mV is displayed on a Featherwing OLED. 
